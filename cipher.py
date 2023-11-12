@@ -11,11 +11,9 @@ def caesar_cipher(text, shift):
         else:
             encrypted_text += char
     return encrypted_text
-
 def main():
     plain_text = input("Please enter a sentence: ")
     encrypted_text = caesar_cipher(plain_text, 5)
     print("The encrypted sentence is:", encrypted_text)
-
 if __name__ == "__main__":
     main()
